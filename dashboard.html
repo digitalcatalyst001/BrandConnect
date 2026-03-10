@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Vendor Dashboard - BrandConnect</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<nav class="navbar">
+    <div class="logo">Brand<span>Connect</span></div>
+    <div>
+        <button id="logoutBtn" class="btn">Logout</button>
+    </div>
+</nav>
+
+<div class="dashboard">
+
+    <div class="sidebar">
+        <button onclick="showSection('profileSection')">Business Profile</button>
+        <button onclick="showSection('subscriptionSection')">Subscription</button>
+    </div>
+
+    <div class="content">
+
+        <!-- PROFILE SECTION -->
+        <div id="profileSection" class="section active">
+            <h2>Create / Update Business Profile</h2>
+
+            <input type="text" id="businessName" placeholder="Business Name">
+            <input type="text" id="description" placeholder="Description">
+            <input type="text" id="category" placeholder="Category">
+            <input type="text" id="location" placeholder="Location">
+            <input type="text" id="phone" placeholder="Phone">
+            <input type="text" id="whatsapp" placeholder="WhatsApp">
+            <input type="text" id="instagram" placeholder="Instagram">
+
+            <input type="file" id="photos" multiple>
+
+            <button id="saveProfileBtn">Save Profile</button>
+        </div>
+
+        <!-- SUBSCRIPTION SECTION -->
+        <div id="subscriptionSection" class="section">
+            <h2>Subscription Status</h2>
+            <div id="subscriptionInfo"></div>
+
+            <h3>Upgrade Plan</h3>
+            <div id="plansContainer"></div>
+        </div>
+
+    </div>
+
+</div>
+
+<script src="dashboard.js"></script>
+</body>
+</html>
