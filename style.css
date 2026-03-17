@@ -1,0 +1,366 @@
+body{
+
+font-family:'Plus Jakarta Sans',sans-serif;
+background:#0f0f0f;
+color:white;
+margin:0;
+
+}
+
+/* NAVBAR */
+
+.navbar{
+
+display:flex;
+justify-content:space-between;
+align-items:center;
+padding:20px 40px;
+background:#111;
+position:sticky;
+top:0;
+
+}
+
+.navbar ul{
+
+display:flex;
+gap:20px;
+list-style:none;
+
+}
+
+.navbar a{
+
+color:white;
+text-decoration:none;
+
+}
+
+.cta{
+
+background:#ff6b00;
+padding:10px 16px;
+border-radius:6px;
+
+}
+
+/* HERO */
+
+.hero{
+
+height:90vh;
+background-image:url("https://images.unsplash.com/photo-1556740749-887f6717d7e4");
+background-size:cover;
+background-position:center;
+display:flex;
+align-items:center;
+justify-content:center;
+
+}
+
+.hero-overlay{
+
+background:rgba(0,0,0,0.6);
+padding:60px;
+border-radius:10px;
+text-align:center;
+
+}
+
+.hero h1{
+
+font-size:60px;
+
+}
+
+/* SEARCH */
+
+.search-box{
+
+display:flex;
+gap:10px;
+margin-top:20px;
+
+}
+
+.search-box input,
+.search-box select{
+
+padding:12px;
+border:none;
+border-radius:6px;
+
+}
+
+.search-box button{
+
+background:#ff6b00;
+border:none;
+padding:12px 20px;
+color:white;
+
+}
+
+/* SECTIONS */
+
+.section{
+
+padding:60px;
+text-align:center;
+
+}
+
+/* CATEGORIES */
+
+.category-grid{
+
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+gap:20px;
+
+}
+
+.category-card{
+
+background:#1a1a1a;
+border-radius:10px;
+overflow:hidden;
+transition:0.3s;
+
+}
+
+.category-card img{
+
+width:100%;
+height:150px;
+object-fit:cover;
+
+}
+
+.category-card:hover{
+
+transform:translateY(-6px);
+
+}
+
+/* BUSINESSES */
+
+.business-grid{
+
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(260px,1fr));
+gap:20px;
+
+}
+
+.business-card{
+
+background:#1a1a1a;
+border-radius:10px;
+overflow:hidden;
+transition:0.3s;
+
+}
+
+.business-card img{
+
+width:100%;
+height:180px;
+object-fit:cover;
+
+}
+
+.business-card:hover{
+
+transform:translateY(-8px);
+
+}
+
+.business-content{
+
+padding:20px;
+
+}
+
+.badge{
+
+background:#ff6b00;
+padding:4px 8px;
+border-radius:4px;
+font-size:12px;
+
+}
+
+/* WHATSAPP */
+
+.whatsapp-btn{
+
+background:#25D366;
+padding:8px 12px;
+border-radius:6px;
+color:white;
+text-decoration:none;
+display:inline-block;
+margin-top:10px;
+
+}
+
+/* MARKETPLACE */
+
+.marketplace-grid{
+
+display:grid;
+grid-template-columns:repeat(3,1fr);
+gap:20px;
+
+}
+
+.marketplace-grid img{
+
+width:100%;
+border-radius:10px;
+
+}
+
+/* VENDORS */
+
+.vendor-grid{
+
+display:flex;
+gap:20px;
+justify-content:center;
+
+}
+
+.vendor img{
+
+width:120px;
+height:120px;
+border-radius:50%;
+
+}
+
+/* TESTIMONIAL */
+
+.testimonial{
+
+background:#1a1a1a;
+padding:30px;
+border-radius:10px;
+max-width:600px;
+margin:auto;
+
+}
+
+.auth-container{
+
+max-width:500px;
+margin:80px auto;
+background:#1a1a1a;
+padding:40px;
+border-radius:10px;
+
+}
+
+.auth-container input{
+
+width:100%;
+padding:12px;
+margin-bottom:15px;
+border:none;
+border-radius:6px;
+
+}
+
+.plan-grid{
+
+display:flex;
+gap:15px;
+margin-bottom:20px;
+
+}
+
+.plan-card{
+
+flex:1;
+background:#222;
+padding:20px;
+border-radius:8px;
+text-align:center;
+cursor:pointer;
+
+}
+
+.plan-card:hover{
+
+border:1px solid #ff6b00;
+
+}
+
+.stats-grid{
+
+display:grid;
+grid-template-columns:repeat(3,1fr);
+gap:20px;
+
+}
+
+.stat-card{
+
+background:#1a1a1a;
+padding:20px;
+border-radius:8px;
+
+}
+
+.subscription-card{
+
+margin-top:40px;
+background:#1a1a1a;
+padding:30px;
+border-radius:10px;
+
+}
+
+.profile-container{
+
+max-width:600px;
+margin:80px auto;
+background:#1a1a1a;
+padding:40px;
+border-radius:10px;
+
+}
+
+.profile-container input,
+.profile-container textarea,
+.profile-container select{
+
+width:100%;
+padding:12px;
+margin-bottom:15px;
+border:none;
+border-radius:6px;
+
+}
+
+.profile-container button{
+
+background:#ff6b00;
+color:white;
+border:none;
+padding:12px;
+border-radius:6px;
+cursor:pointer;
+
+}
+
+/* FOOTER */
+
+footer{
+
+text-align:center;
+padding:30px;
+background:#111;
+
+}
