@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 document.addEventListener("DOMContentLoaded", async () => {
 
 const container = document.getElementById("featuredBusinesses")
@@ -31,3 +32,18 @@ WhatsApp
 })
 
 })
+=======
+document.addEventListener("DOMContentLoaded", function () {
+
+  const registerForm = document.getElementById("businessForm");
+
+  if (registerForm) {
+    registerForm.addEventListener("submit", function (e) {
+      e.preventDefault();
+      alert("Business Registered Successfully!");
+      registerForm.reset();
+    });
+  }
+
+});
+>>>>>>> fc4bc7893c4ac71d7725dd816510094da0e80573
